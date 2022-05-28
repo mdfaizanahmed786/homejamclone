@@ -3,7 +3,12 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'banner': "url('/src/assets/header.png')",
+       
+      }
+    },
   },
-  plugins: [],
+  plugins: [require("tailwind-gradient-mask-image")],
 }
