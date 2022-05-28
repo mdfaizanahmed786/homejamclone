@@ -21,9 +21,9 @@ const Header = () => {
           <InboxIcon className="text-white h-5 cursor-pointer" />
         </div>
       </nav>
-      <div className="w-5/6 max-w-2xl space-y-4 flex flex-col h-1/2  ml-28 justify-center mt-10 ">
-        <p className="text-8xl text-white">Gari Gari</p>
-        <p className="text-white text-2xl">
+      <div className="w-5/6 max-w-2xl gap-4 flex flex-col h-1/2  ml-28 justify-center mt-10 ">
+        <p className="text-7xl text-white font-cursive">Cari Cari</p>
+        <p className="text-white text-2xl opacity-70">
           Live from their sofa to yours. Get closer to your favourite artists,
           and never miss out.
         </p>
