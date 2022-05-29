@@ -4,6 +4,7 @@
 
 body{
     background-color:#0A0B1A;
+    user-select: none;
 }
 
 /*  'Libre Baskerville', serif */

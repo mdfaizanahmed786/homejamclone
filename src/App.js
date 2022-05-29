@@ -9,7 +9,7 @@ function App() {
       <header>
         <Header />
       </header>
-      <main className="max-w-7xl m-auto">
+      <main className="max-w-7xl m-auto space-y-28">
         <section>
           <Shows />
         </section>
