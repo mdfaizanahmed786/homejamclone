@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/logo.png";
 import { SearchIcon } from "@heroicons/react/solid";
-import { InboxIcon } from "@heroicons/react/outline";
+import { HeartIcon, InboxIcon } from "@heroicons/react/outline";
 import Labels from "./Labels";
 
 const Header = () => {
@@ -32,7 +32,15 @@ const Header = () => {
         </div>
       </div>
       <div className="flex justify-around px-14">
-        <Labels />
+         <div className="w-56 h-56 rounded-full  border-gray-400 border text-white relative">
+         <div className="absolute w-56 h-56 rounded-full border-2 left-0 top-0 bottom-0 border-b-pink-500 border-r-pink-500 right-0 transform -rotate-[37deg]"/>
+         <div className='flex justify-center gap-3 flex-col items-center h-full'>
+         <HeartIcon className='h-8 text-blue-600'/>
+         <p className='text-2xl'>0</p>
+            <p className='text-xl'>Label</p>
+           </div>
+       
+         </div>
         <Labels calender />
         <Labels calender />
         <Labels calender/>
