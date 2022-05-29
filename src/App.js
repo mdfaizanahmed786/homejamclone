@@ -5,11 +5,11 @@ import Shows from "../src/components/Shows";
 
 function App() {
   return (
-    <>
+    <div className="space-y-36">
       <header>
         <Header />
       </header>
-      <main>
+      <main className="max-w-7xl m-auto">
         <section>
           <Shows />
         </section>
@@ -17,7 +17,7 @@ function App() {
           <Reviews />
         </section>
       </main>
-    </>
+    </div>
   );
 }
 

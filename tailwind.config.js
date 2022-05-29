@@ -10,6 +10,9 @@ module.exports = {
       backgroundImage: {
         'banner': "url('/src/assets/header.png')",
        
+      },
+      boxShadow: {
+        '3xl': '10px -10px  #186FCC',
       }
     },
   },

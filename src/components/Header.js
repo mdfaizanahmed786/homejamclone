@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <>
       <div className="h-screen relative top-0 -mb-32">
-        <div className="bg-banner h-full bg-no-repeat bg-cover brightness-50 absolute top-0 right-0 left-0 -z-10 gradient-mask-b-80"></div>
+        <div className="bg-banner h-full bg-no-repeat bg-cover opacity-95 brightness-50 absolute top-0 right-0 left-0 -z-10 gradient-mask-b-80"></div>
         <nav className="flex justify-between items-center py-5 w-full px-36 z-10">
           <div className="imageContainer relative w-20">
             <img src={logo} alt="logo" className="cursor-pointer" />
